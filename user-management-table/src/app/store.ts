@@ -9,6 +9,4 @@ export const store = configureStore({
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
-
-// Додаємо порожній експорт, щоб зробити цей файл модулем
 export {};
